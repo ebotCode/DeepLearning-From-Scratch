@@ -11,31 +11,11 @@ Armed with the understanding, and inspired by tensorflow's "lego" like feel, i d
 
 This implementation can handle logistic_loss, dropout, ...(see ttechoflow.py)
 
-For instance, to set up a simple linear logistic regression problem, 
+For instance, to set up a simple linear regression problem (see Tutorial1.py) and 
+for a simple logistic regression (see Tutorial2.py) 
 
-import ttechoflow as tf 
-x_train = 
-y_train = 
+For more on how it is used, and its result , see (TestWithPlanarData.py)
 
-# create a graph. This defines the namespace for the variables to be created 
-my_graph = tf.ComputationGraph()
-my_graph.initizlize()
-my_graph.set_as_default()
-
-X = tf.Constant(x_train, name = "Input")
-Y = tf.Constant(y_train, name = "Output")
-
-W1 = tf.Variable(shape = (5,X.getShape()[0],), is_parameter = True)
-b1 = tf.Variable(shape = (5,1), is_parameter = True )
-
-Z1 = tf.matmul(W1,Z) + b1 
-A1 = tf.sigmoid(Z1) 
-
-cost = tf.logistic_loss(logits = A1, labels = Y)
-
-# create an optimizer 
-optimizer = tf.GradientOptimizer(cost, learning_rate = 0.1) 
-# to run, create a session 
 
 Lol. I tried to give it a similar feel as what tensorflow so beautifully gives. 
 
