@@ -1,0 +1,494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getVariableByName"
+			],
+			[
+				"LinearLogistic",
+				"LinearLogisticPredict"
+			],
+			[
+				"plot",
+				"plot_decision_boundary"
+			],
+			[
+				"convert",
+				"convertAllParametersToVector"
+			],
+			[
+				"initialise",
+				"initialiseParticles"
+			],
+			[
+				"bott",
+				"bottom_right_corner"
+			],
+			[
+				"convertTo",
+				"convertToPixel"
+			],
+			[
+				"closest_seg",
+				"closest_segment_intersection"
+			],
+			[
+				"is",
+				"isRayIntersectingLine〔function〕"
+			],
+			[
+				"test_is",
+				"test_isIntersect2"
+			],
+			[
+				"test",
+				"test_isIntersect"
+			],
+			[
+				"tfarray",
+				"tfarray_type"
+			],
+			[
+				"num",
+				"number_of_columns"
+			],
+			[
+				"current",
+				"current_water_level"
+			],
+			[
+				"min",
+				"min_water_level"
+			],
+			[
+				"let",
+				"let"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\nimport math \nimport numpy as np \nimport matplotlib.pyplot as plt \nimport tensorflow as tf \nfrom tensorflow.python.framework import ops \n\n\ny_hat = tf.constant(36, name= 'y_hat')\ny = tf.constant(39, name = 'y')\n\nloss = tf.Variable((y - y_hat)**2, name = \"loss\")\n\ninit = tf.global_variables_initializer()\n\nwith tf.Session() as session:\n\tsession.run(init)\n\tprint(session.run(loss))",
+			"file": "/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/tensorflow projects/TensorflowTutorial1.py",
+			"file_size": 0,
+			"file_write_time": 131669127071509272,
+			"settings":
+			{
+				"buffer_size": 378,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python2.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow"
+	],
+	"file_history":
+	[
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/description",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/1 NEURAL NETWORKS DEEP LEARNING/WEEK4/Building+your+Deep+Neural+Network+-+Step+by+Step+v7.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/tools.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/copiedFrom.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/TestWithPlanarData.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/TechoflowTestSuite.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/ttechoflow.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/dataset/catdataset_train1.csv",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/ImageClassification1.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/test_tc.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/workspace3.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/TechoflowTestSuite2.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/workspace_gradcheck.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/workspace.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/dataset/planar_dataset.csv",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/loader_planar.py",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/workspace2.py",
+		"/C/Users/TOBE/Downloads/DATA SETS/NFPA_dataset/NFPA dataset/pos-1.txt",
+		"/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/techoflow/tc.py",
+		"/C/T-TECH/LEARNING/COMPUTER SCIENCE/Udacity DESIGN OF COMPUTER PROGRAMS UDACITY/codes/reg_expression2_API.py",
+		"/C/T-TECH/LEARNING/COMPUTER SCIENCE/Udacity DESIGN OF COMPUTER PROGRAMS UDACITY/codes/reg_expression1.py",
+		"/C/T-TECH/LEARNING/COMPUTER SCIENCE/Udacity DESIGN OF COMPUTER PROGRAMS UDACITY/codes/zebra_puzzle.py",
+		"/C/T-TECH/PROJECTS/T-TECH MAIN PROJECTS/CLEANBOT/TechnicalNotes.txt",
+		"/C/T-TECH/PROJECTS/T-TECH MAIN PROJECTS/CLEANBOT/fromSite2.py",
+		"/C/T-TECH/PROJECTS/T-TECH MAIN PROJECTS/CLEANBOT/VisualDisplay.py",
+		"/C/T-TECH/PROJECTS/T-TECH MAIN PROJECTS/CLEANBOT/RunLocaliseHome.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/TRACK-SONAR/Description.txt",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/EBOTLAB/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/GEST-CONTROL/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/INFLATE TYRE/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/NAVBOT/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/AUTOVULC/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/SPECT-TYRE/Description",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/AUTOVULC/# CAR AUTOVULC",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/DebugCode.py",
+		"/C/T-TECH/LEARNING/COMPUTER SCIENCE/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/WISHFUL THINKING/equationParser.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/language.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/equationParser.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/compiling.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/compiling2.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/generators.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/langproocessor.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/regextoo.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/ParsersAndGrammar.py",
+		"/E/VICTORIA PHD/New folder (2)/tobe/ttt/DESIGN OF COMPUTER PROGRAMS UDACITY/part2/cachemanagement.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/PUT ON GIT/git folder/Localisation-Algorithm/README.md",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/RunRobotDisplay.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/VisualDisplayGUI.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/VisualDisplay.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/RobotClass.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/GeometricUtils.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/TechnicalProblemsAndResolution.txt",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/TechnicalProblemsAndResolution.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/ProblemsAndResolution.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/TestClassRobot.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/Description",
+		"/C/T-TECH/LEARNING/ARTIFICIAL INTELLIGENCE/ARIFICIAL INTELLIGENCE FOR ROBOTICS UDACITY/1 LOCALISATION/ParticleFilter.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/testRunRobotDisplay.py",
+		"/C/Users/TOBE/Documents/tobe's document/investigate",
+		"/C/T-TECH/LEARNING/tools/samplingPoints.py",
+		"/C/T-TECH/PROJECTS/PROJECT T/T-TECH MAIN PROJECTS/CLEANBOT/workspace.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/OLD TF/TfArray.h",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/OLD TF/TfArray.cpp",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/MatrixOperationClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/EigenFunctions.txt",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/MockTMeshClass.py",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/MICRO CONTROLLERS AND MORE/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/Blob.cpp",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testMatrixOperationClass.py",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/MICRO CONTROLLERS AND MORE/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/main.cpp",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/MICRO CONTROLLERS AND MORE/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/OpenCV_3_Multiple_Object_Tracking_by_Image_Subtraction_Cpp-master/Blob.h",
+		"/C/Users/TOBE/Documents/Visual Studio 2012/Projects/MICRO CONTROLLERS AND MORE/IMAGE SUBTRACTION/IMAGE SUBTRACTION/Blob.cpp",
+		"/C/Users/TOBE/Documents/Visual Studio 2012/Projects/MICRO CONTROLLERS AND MORE/IMAGE SUBTRACTION/IMAGE SUBTRACTION/main.cpp",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/MICRO CONTROLLERS AND MORE/OpenCV_3_Mouse_Move_Prediction_Cpp-master/OpenCV_3_Mouse_Move_Prediction_Cpp-master/main.cpp",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testTVariableClass.py",
+		"/C/T-TECH/LEARNING/INSTALLING PACKAGES/OPENCV/opencv_ts300.lib",
+		"/C/Users/TOBE/Documents/Visual Studio 2012/Projects/NewOpencv/NewOpencv/motionTracking.cpp",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/opencvFiles/OpenCV 3.0.0 64 bit.props",
+		"/C/Users/TOBE/Documents/Visual Studio 2012/Projects/NewOpencv/NewOpencv/find_contours_tutorial.cpp",
+		"/C/Users/TOBE/Documents/Visual Studio 2012/Projects/NewOpencv/NewOpencv/OpenCV 3.0.0 64 bit.props",
+		"/C/T-TECH/LEARNING/COMPUTER VISION/opencvFiles/OpenCV 2.4.6 64 bit.props",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testTFieldClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testTMeshClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/TFieldClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testTField.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/TField.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/TTestToolsClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testMatrixO.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/TTestToolsClass.pyc",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/TMeshClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testAll.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testGradientClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/Project_cmd commands.txt",
+		"/C/Users/TOBE/Documents/JOBS/victoria/CYLINDRICAL STRUCTURED GRID USE - CODE2/TestToolsClass.m",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/others/setup.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/others/TryPyximport.py",
+		"/C/Users/TOBE/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/TOBE/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/others/fib.c",
+		"/C/Users/TOBE/AppData/Roaming/Sublime Text 3/Packages/User/Python2.sublime-build",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/others/sentences",
+		"/C/Users/TOBE/Documents/tobe's document/PERSONAL documents/GRE & TOEFL/sentences and structures",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/testMeshClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/MeshClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/MockMeshClass.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/TechFlow3D/README.md",
+		"/C/T-TECH/LEARNING/INSTALLING DEV PACKAGES/INSTALLING CYTHON IN PYTHON/readmecython.txt",
+		"/C/python35/Lib/distutils/msvccompiler.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/test1.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/setup.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/mypyfiles/helloworldapp.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/convertTopyx.py",
+		"/C/T-TECH/LEARNING/INSTALLING DEV PACKAGES/INSTALLING JUPYTER FOR PYTHON/readmejupyter.txt",
+		"/C/Python27/Lib/distutils/distutils.cfg",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/workfile.py.py",
+		"/C/python35/Lib/distutils/distutils.cfg",
+		"/C/python35/Lib/distutils/README",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/fib.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/helloworldapp.pyx",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/SpeedPython/testcode.h",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/main.cpp",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/xtensor-master/xtensor-master/README.md",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/xtensor-master/xtensor-master/CMakeLists.txt",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/SpeedPython/testcode.cpp",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/TestTfArray.h",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE C++/TECHFLOW/TfArray.h",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/mypyfiles/fib.py",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/fib.c",
+		"/C/Users/TOBE/Documents/JOBS/victoria/UNSTRUCTURED FVM CODE PYTHON/mypyfiles/hello.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"*\"",
+			"*",
+			"learning_rate",
+			"initializeGradient()",
+			"print",
+			"print(",
+			"es,\n\t\t\t\t\t\t   obstacle5_boundaries,obstacle6_boundaries,\n\t\t\t\t\t\t   obstacle7_boundaries,obstacle8_boundaries]",
+			"1000",
+			"input",
+			"\t\t\tprint ('o = ',o)\n\t\t\tprint ('d = ',d)\n\t\t\tprint (' t1 = ',t1)\n\t\t\tprint (' t2 = ',t2)\n\t\t\tprint ('intersection 1 = ',intersection1)\n\t\t\tprint ('intersection 2 = ',intersection2) ",
+			"\t\t\t# print ('o = ',o)\n\t\t\t# print ('d = ',d)\n\t\t\t# print (' t1 = ',t1)\n\t\t\t# print (' t2 = ',t2)\n\t\t\t# print ('intersection 1 = ',intersection1)\n\t\t\t# print ('intersection 2 = ',intersection2) ",
+			"246",
+			"self.meshobj",
+			"%",
+			"raise Distutils",
+			"tfarray_type",
+			"<tfarray_type>",
+			"username",
+			"WaterTank"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"300",
+			"meshobj",
+			"#",
+			"WaterDispenser"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/T-TECH/LEARNING/DEEP LEARNING/DEEP LEARNING COURSERA/tensorflow projects/TensorflowTutorial1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "techoflow.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
