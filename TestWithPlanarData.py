@@ -11,6 +11,7 @@ X_train, Y_train = load_planar_dataset("planar_dataset.csv")
 
 # plot data 
 plt.scatter(X_train[0, :], X_train[1, :], c=Y_train.flatten(), s=40, cmap=plt.cm.Spectral);
+plt.show()
 
 def LinearLogistic(X_train,Y_train):
 # Build Model 
@@ -159,7 +160,7 @@ cost, optimizer, An = LinearTanh(X_train,Y_train)
 # runGradientChecking(my_graph)
 
 if 1: 
-	cost_list = runIteration(optimizer,cost, 10000)
+	cost_list = runIteration(optimizer,cost, 8000)
 	# compute accuracy on training set 
 	print("@"*10)
 	pred = LinearLogisticPredict(An,X_train)
@@ -177,4 +178,6 @@ if 1:
 	tl.plot_decision_boundary(LinearLogisticPredict,An,my_graph.getVariableByName("Input"),sess, X_train,Y_train)
 	plt.figure()
 	plt.plot(range(len(cost_list)),cost_list,)
+	plt.figure()
+	plt.scatter(X_train[0, :], X_train[1, :], c=Y_train.flatten(), s=40, cmap=plt.cm.Spectral);
 	plt.show()
