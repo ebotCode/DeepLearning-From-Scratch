@@ -133,6 +133,6 @@ def plot_decision_boundary(prediction_function,model_output,model_x_input,sess, 
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
     plt.ylabel('x2')
     plt.xlabel('x1')
-    plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
+    plt.scatter(X[0, :], X[1, :], c=y.flatten(), cmap=plt.cm.Spectral)
 
 

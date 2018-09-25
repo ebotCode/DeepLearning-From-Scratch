@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 X_train, Y_train = load_planar_dataset("planar_dataset.csv")
 
 # plot data 
-plt.scatter(X_train[0, :], X_train[1, :], c=Y_train, s=40, cmap=plt.cm.Spectral);
+plt.scatter(X_train[0, :], X_train[1, :], c=Y_train.flatten(), s=40, cmap=plt.cm.Spectral);
 
 def LinearLogistic(X_train,Y_train):
 # Build Model 
@@ -62,7 +62,7 @@ def LinearTanh(X_train, Y_train):
 	nsamples = X_train.shape[1]
 	cost  = tf.logistic_loss(logits = An, labels = Y) + tf.l2norm(W1,0.4,nsamples) + tf.l2norm(W2,0.4,nsamples)
 
-	optimizer = tf.GradientDescentOptimizer(cost, learning_rate = 0.01, name = 'optimizer')
+	optimizer = tf.GradientDescentOptimizer(cost, learning_rate = 0.1, name = 'optimizer')
 	return cost, optimizer , An 
 
 def GradCheck(theta, sess,cost,optimizer,my_graph):
